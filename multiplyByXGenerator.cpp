@@ -106,6 +106,14 @@ int main(int argc, char *argv[])
     This technique simulates how older processors without hardware multiplication
     support performed arithmetic and is still used by modern compilers as an
     optimization strategy.
+
+    Sources:
+    Stack Overflow. (2010, May 5). How can I multiply and divide using only bit shifting and adding? 
+    Retrieved February 24, 2026, from 
+    https://stackoverflow.com/questions/2776211/how-can-i-multiply-and-divide-using-only-bit-shifting-and-adding
+
+    Spiral Project. (n.d.). Multiplierless constant multiplication. 
+    Retrieved February 24, 2026, from http://www.spiral.net/hardware/multless.html
      ============================================================================ */
 
    // load element into %r8d (original value)
@@ -151,6 +159,7 @@ int main(int argc, char *argv[])
 
    return 0;
 }
+
 
 
 
